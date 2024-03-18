@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"/>
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>-->
+
+    <TextView
+        android:id="@+id/textViewExercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise"/>
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>-->
+
+    <TextView
+        android:id="@+id/textViewDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duration"/>
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>-->
+
+    <TextView
+        android:id="@+id/textViewFeeling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feeling"/>
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>-->
+    <TextView
+        android:id="@+id/textViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"/>
+    <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>-->
+</LinearLayout>
